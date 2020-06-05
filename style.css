@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 7px 5px 50px black;
+    
+}
+a{
+    text-decoration: none;
+}
+.background_00{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -100;
+}
+.background_00 > video{
+    height: 100vh;
+    overflow: hidden;
+    filter: grayscale(50%);
+    opacity: 6%;
+}
+body{
+    margin: 120px;
+    background-color: #27262c;
+}
+.upper_content{
+    padding: 30px;
+    height: 100px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.navbutton{
+   width: 400px;
+   font-size: 2.4em;
+   padding: 30px;
+}
+
+.navbutton:hover{
+    background: rgba(79, 79, 79, .4);
+}
+h1{
+    font-size: 20em;
+    margin: 300px 0 120px 0;
+    animation-name: animation_00;
+    animation-duration: 5s;
+    
+   
+  
+}
+
+@keyframes animation_00{
+    0% { opacity: 0%;}
+    100% { opacity: 100%;}
+}
+
+.present_employment_00{
+    font-size: 4.5em;
+    margin: 30px 0 30px 0;
+}
+.present_employment_01{
+    font-size: 2.5em;
+    font-style: oblique;
+    margin-bottom: 140px;
+}
+
+.skills_00{
+    text-decoration: underline;
+}
+
+
+.skills_01_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    
+}
+
+.skills_01{
+    width: 20%;
+    text-decoration: underline;
+}
+
+.skills_02_prime_container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.skills_02_sub_container{
+    width: 20%;
+    flex-direction: column;
+    
+}
+.skills_02{
+    margin: 35px 0 35px 0;
+    font-style: oblique;
+}
